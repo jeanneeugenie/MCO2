@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="VendingMachine">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/VendingMachine.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

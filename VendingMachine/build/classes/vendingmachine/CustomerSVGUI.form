@@ -1,0 +1,797 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace min="-2" pref="57" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="B1" min="-2" pref="75" max="-2" attributes="0"/>
+                  <Component id="B5" min="-2" pref="75" max="-2" attributes="0"/>
+                  <Component id="B9" alignment="0" min="-2" pref="75" max="-2" attributes="0"/>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="jLabel11" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel12" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel13" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Group type="103" alignment="0" groupAlignment="1" attributes="0">
+                              <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel5" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel6" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel7" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel8" alignment="1" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel9" alignment="1" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel10" alignment="1" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="item7" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Component id="itemCal7" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="77" max="-2" attributes="0"/>
+                              <Component id="itemPrice7" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="58" max="-2" attributes="0"/>
+                              <Component id="itemStock7" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="item8" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Component id="itemCal8" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="77" max="-2" attributes="0"/>
+                              <Component id="itemPrice8" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="58" max="-2" attributes="0"/>
+                              <Component id="itemStock8" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="item9" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Component id="itemCal9" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="77" max="-2" attributes="0"/>
+                              <Component id="itemPrice9" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="58" max="-2" attributes="0"/>
+                              <Component id="itemStock9" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="item10" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Component id="itemCal10" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="77" max="-2" attributes="0"/>
+                              <Component id="itemPrice10" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="58" max="-2" attributes="0"/>
+                              <Component id="itemStock10" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="item11" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Component id="itemCal11" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="77" max="-2" attributes="0"/>
+                              <Component id="itemPrice11" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="58" max="-2" attributes="0"/>
+                              <Component id="itemStock11" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="item1" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="item2" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="item3" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="item4" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="item5" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="item6" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <Group type="103" groupAlignment="1" attributes="0">
+                                          <Component id="B2" min="-2" pref="75" max="-2" attributes="0"/>
+                                          <Component id="B7" alignment="1" min="-2" pref="75" max="-2" attributes="0"/>
+                                          <Component id="B11" alignment="1" min="-2" pref="75" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <EmptySpace min="-2" pref="81" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Component id="itemCal6" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace min="-2" pref="77" max="-2" attributes="0"/>
+                                              <Component id="itemPrice6" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace min="-2" pref="58" max="-2" attributes="0"/>
+                                              <Component id="itemStock6" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                  <Component id="itemCal1" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="itemCal2" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="itemCal3" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="itemCal4" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="itemCal5" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              </Group>
+                                              <EmptySpace min="-2" pref="77" max="-2" attributes="0"/>
+                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                  <Component id="itemPrice1" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="itemPrice2" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="itemPrice3" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="itemPrice4" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="itemPrice5" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              </Group>
+                                              <EmptySpace min="-2" pref="58" max="-2" attributes="0"/>
+                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                  <Component id="itemStock5" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="itemStock4" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="itemStock3" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="itemStock2" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="itemStock1" min="-2" max="-2" attributes="0"/>
+                                              </Group>
+                                          </Group>
+                                      </Group>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="B3" alignment="0" min="-2" pref="75" max="-2" attributes="0"/>
+                                          <Component id="B6" alignment="0" min="-2" pref="75" max="-2" attributes="0"/>
+                                          <Component id="B10" alignment="0" min="-2" pref="75" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                          <Component id="B8" min="-2" pref="75" max="-2" attributes="0"/>
+                                          <Component id="B12" min="-2" pref="75" max="-2" attributes="0"/>
+                                          <Component id="B4" alignment="0" min="-2" pref="75" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="item12" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Component id="itemCal12" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="77" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <Component id="itemPrice12" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="58" max="-2" attributes="0"/>
+                                      <Component id="itemStock12" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                                      <Component id="CONTINUE" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="SVADD" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="jButton3" alignment="0" max="32767" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace pref="49" max="32767" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace max="32767" attributes="0"/>
+              <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="93" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="90" max="-2" attributes="0"/>
+              <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="38" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="item1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="itemCal1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="itemStock1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="itemPrice1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="item2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="itemCal2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="itemPrice2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="itemStock2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="item3" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="itemCal3" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="itemPrice3" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="itemStock3" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="item4" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="itemCal4" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="itemPrice4" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="itemStock4" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="item5" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="itemCal5" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="itemPrice5" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="itemStock5" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="item6" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="itemCal6" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="itemPrice6" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="itemStock6" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="item7" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="itemCal7" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="itemPrice7" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="itemStock7" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="item8" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="itemCal8" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="itemPrice8" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="itemStock8" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="item9" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="itemCal9" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="itemPrice9" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="itemStock9" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="item10" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="itemCal10" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="itemPrice10" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="itemStock10" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="item11" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="itemCal11" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="itemPrice11" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="itemStock11" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="item12" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="itemCal12" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="itemPrice12" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="itemStock12" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="jLabel6" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="jLabel5" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="jLabel7" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="88" pref="88" max="-2" attributes="0"/>
+                              <Component id="jLabel10" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="jLabel8" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="jLabel9" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="35" pref="35" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Component id="jLabel12" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="jLabel11" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="jLabel13" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace pref="41" max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Component id="B1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="B5" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="B9" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Component id="B2" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="B7" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="B11" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Component id="B3" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="B6" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="B10" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="B4" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="SVADD" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="B8" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="CONTINUE" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="jButton3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="82" pref="82" max="-2" attributes="0"/>
+                      <Component id="B12" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace min="-2" pref="58" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Helvetica Neue" size="48" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="WELCOME TO SILOGAN"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="B1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="1"/>
+        <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+          <Color id="North Resize Cursor"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="B1ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="item1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="BROWN RICE"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="itemCal1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="CALORIES: 216"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="itemPrice1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="PRICE: 30"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="itemStock1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="QUANTITY: 15"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="itemPrice2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="PRICE: 30"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="itemStock2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="QUANTITY: 15"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="B2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="2"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="B2ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="item2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="WHITE RICE"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="itemCal2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="CALORIES: 216"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="itemCal3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="CALORIES: 216"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="itemPrice3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="PRICE: 30"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="itemStock3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="QUANTITY: 15"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="B3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="3"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="B3ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="item3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="JAVA RICE"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="B4">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="4"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="B4ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="B5">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="5"/>
+        <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+          <Color id="North Resize Cursor"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="B5ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="B6">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="7"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="B6ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="B7">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="6"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="B7ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="B8">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="8"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="B8ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="B9">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="9"/>
+        <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+          <Color id="North Resize Cursor"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="B9ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="B10">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="11"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="B10ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="B11">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="10"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="B11ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="B12">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="12"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="B12ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="itemCal4">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="CALORIES: 216"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="itemPrice4">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="PRICE: 30"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="itemStock4">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="QUANTITY: 15"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="item4">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="BACON BITS"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="itemStock5">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="QUANTITY: 15"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="item5">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="ROASTED MSUHROOMS"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="itemCal5">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="CALORIES: 216"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="itemPrice5">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="PRICE: 30"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="itemStock6">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="QUANTITY: 15"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="item6">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="EDAMAME"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="itemCal6">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="CALORIES: 216"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="itemPrice6">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="PRICE: 30"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="itemStock7">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="QUANTITY: 15"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="item7">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="GRILLED CHICKEN"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="itemCal7">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="CALORIES: 216"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="itemPrice7">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="PRICE: 30"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="itemStock8">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="QUANTITY: 15"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="item8">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="GROUND BEEF"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="itemCal8">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="CALORIES: 216"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="itemPrice8">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="PRICE: 30"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="itemCal9">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="CALORIES: 216"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="itemPrice9">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="PRICE: 30"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="itemStock9">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="QUANTITY: 15"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="item9">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="MEATBALLS"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="itemCal10">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="CALORIES: 216"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="itemPrice10">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="PRICE: 30"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="itemStock10">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="QUANTITY: 15"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="item10">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="SALMON"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="itemCal11">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="CALORIES: 216"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="itemPrice11">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="PRICE: 30"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="itemStock11">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="QUANTITY: 15"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="item11">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="TERIYAKI SAUCE"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="itemCal12">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="CALORIES: 216"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="itemPrice12">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="PRICE: 30"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="itemStock12">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="QUANTITY: 15"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="item12">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="CHEESE SAUCE"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="ITEM 1"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="ITEM 2"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel4">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="ITEM 3"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel5">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="ITEM 5"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel6">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="ITEM 4"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel7">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="ITEM 6"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel8">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="ITEM 7"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel9">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="ITEM 8"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel10">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="ITEM 9"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel11">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="ITEM 11"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel12">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="ITEM 10"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel13">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="ITEM 12"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="SVADD">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="ADD ANOTHER ITEM"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="CONTINUE">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="CONTINUE"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButton3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="BACK"/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>
